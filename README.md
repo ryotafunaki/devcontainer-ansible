@@ -1,15 +1,15 @@
-# Dev Containers Template Repository
+# Ansible Dev Containers Repository
 
-This repository is a template for Dev Containers.
+This repository is a Dev Container for Ansible.
 
 ## Overview
 
 | Type | Summary |
 | --- | --- |
-| Base image and tags | base image name |
+| Base image and tags | ubuntu:latest |
 | Target platform | linux/x64, linux/arm64 |
-| Container registry's URL | https://hub.docker.com/r/owner/repository/ |
-| Installed packages | package name |
+| Container registry's URL | https://hub.docker.com/r/ryotafunaki/devcontainer-ansible/ |
+| Installed packages | Ansible |
 
 ## How to use
 
