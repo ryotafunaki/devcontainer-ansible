@@ -6,7 +6,7 @@ This repository is a Dev Container for Ansible.
 
 | Type | Summary |
 | --- | --- |
-| Base image and tags | python:latest |
+| Base image and tags | ubuntu:latest |
 | Target platform | linux/x64, linux/arm64 |
 | Container registry's URL | https://hub.docker.com/r/ryotafunaki/devcontainer-ansible/ |
 | Installed packages | Ansible |

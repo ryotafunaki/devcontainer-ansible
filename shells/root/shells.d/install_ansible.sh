@@ -3,6 +3,8 @@
 # This source code is managed under the MIT license. See LICENSE in the project root.
 
 # Install development tools
-# See https://docs.ansible.com/ansible/2.9_ja/installation_guide/intro_installation.html#debian-ansible
-
+# See https://docs.ansible.com/ansible/2.9_ja/installation_guide/intro_installation.html#ubuntu-ansible
+apt install -y software-properties-common
+apt-add-repository --yes --update ppa:ansible/ansible
+apt install -y ansible
 exit 0
